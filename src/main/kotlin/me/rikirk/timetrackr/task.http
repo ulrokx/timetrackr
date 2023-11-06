@@ -1,0 +1,10 @@
+POST http://localhost:8080/tasks
+Content-Type: application/json
+
+{
+    "name": "task1",
+    "groupId": "afa4d277-5785-45eb-960e-bb771cb9652d"
+}
+
+###
+GET http://localhost:8080/tasks

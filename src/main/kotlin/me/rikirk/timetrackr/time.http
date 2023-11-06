@@ -1,0 +1,7 @@
+POST http://localhost:8080/time
+Content-Type: application/json
+
+{
+    "taskId": "17b5a2df-e686-4008-9f32-fcf7db60d9f0",
+    "started": true
+}

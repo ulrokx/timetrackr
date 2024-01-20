@@ -28,4 +28,7 @@ class TimeEntryService(
             timeEntryRepository.save(lastEntry)
         }
     }
+
+    fun getCurrentTimeEntry(): TimeEntry? {
+    }
 }

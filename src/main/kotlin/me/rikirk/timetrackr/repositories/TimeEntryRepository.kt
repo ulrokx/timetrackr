@@ -6,4 +6,6 @@ import org.springframework.data.repository.CrudRepository
 
 interface TimeEntryRepository: CrudRepository<TimeEntry, String> {
     fun getFirstByTaskOrderByStartTimeDesc(task: Task): TimeEntry?
+
+    fun getAllByTaskAndDurationIsNul(task: Task): Iterable<TimeEntry>
 }
